@@ -28,14 +28,9 @@ switch testProblem
        case "RE21"
 	    numObjs = 2;
 	    numVars = 4;
-
-  	    F = 10;
-	    sigma = 10;
-	    tmpVar = (F / sigma);
-	    tmpVar2 = 3 * tmpVar;
 	    
-	    lowerBounds = [tmpVar sqrt(tmpVar) sqrt(tmpVar) tmpVar];
-	    upperBounds = [tmpVar2 tmpVar2 tmpVar2 tmpVar2];
+	    lowerBounds = [1 sqrt(2) sqrt(2) 1];
+	    upperBounds = [3 3 3 3];
        case "RE22"
 	    numObjs = 2;
 	    numVars = 3;
